@@ -1,6 +1,4 @@
 import { Tag } from "@/components/Tag";
-import { div } from "framer-motion/client";
-import Image from "next/image";
 import figmaIcon from "@/assets/images/figma-logo.svg";
 import notionIcon from "@/assets/images/notion-logo.svg";
 import slackIcon from "@/assets/images/slack-logo.svg";
