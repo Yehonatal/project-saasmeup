@@ -1,3 +1,5 @@
+"use client";
+
 import { Tag } from "@/components/Tag";
 import figmaIcon from "@/assets/images/figma-logo.svg";
 import notionIcon from "@/assets/images/notion-logo.svg";
@@ -61,6 +63,7 @@ export default function Integrations() {
                         <div className="h-[400px] lg:h-[800px] lg:mt-0 mt-8 overflow-hidden mask-gradient-vertical grid md:grid-cols-2 gap-4">
                             <IntegrationsColumn integrations={integrations} />
                             <IntegrationsColumn
+                                reverse
                                 integrations={integrations.slice().reverse()}
                             />
                         </div>
